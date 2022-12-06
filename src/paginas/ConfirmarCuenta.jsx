@@ -44,11 +44,10 @@ const ConfirmarCuenta = () => {
         </div>
 
         <div className="mt-20 md:mt-5 shadow-lg px-5 rounded-xl bg-white" >
-          <div className="mt-10 mb-10">
-            {!cargando && 
+          <div className="mt-10 mb-10"> 
             <Alerta 
               alerta={alerta}
-            />}
+            />
 
             {cuentaConfirmada && (
               <Link to="/" className='text-center my-5 bg-indigo-700 w-full py-3 px-10 rounded-xl text-white
